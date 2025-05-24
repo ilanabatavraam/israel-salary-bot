@@ -16,7 +16,8 @@ import os
 nest_asyncio.apply()
 
 # Replace this with your actual bot token
-BOT_TOKEN = None  # moved to environment variable
+TOKEN = os.getenv("KEY")  # not recommended for clarity
+
 
 # Scheduled task to send reports
 async def send_monthly_reports(application):
