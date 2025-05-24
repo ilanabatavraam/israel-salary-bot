@@ -3,3 +3,4 @@ aiosqlite
 apscheduler
 python-dateutil
 reportlab
+nest_asyncio
